@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 80%;
+    margin: 10rem auto;
+    padding: 1rem;
+    border: 3px solid goldenrod;
+}
+
+section div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+section p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+article {
+    display: flex;
+    gap: 1rem;
+}
+
+article div {
+    font-size: 2rem;
+}
+
+.first-operand,
+.second-operand {
+    width: 5rem;
+    height: 5rem;
+    border: 2px solid black;
+}
+
+form {
+    display: flex;
+    gap: 1rem;
+}
+
+form input {
+    height: 2rem;
+    font: 1.5rem;
+}
+
+#submit-btn,
+#restart-btn {
+    padding: 0 2rem;
+}
